@@ -1,0 +1,31 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "3.10.7",
+  "startedAt": "2024-11-05T18:34:10.557392Z",
+  "program": "c:\\Users\\omare\\Desktop\\MLX project\\Tranformer_project\\simple_word2vec_attention.ipynb",
+  "git": {
+    "remote": "https://github.com/omare334/Tranformer_project.git",
+    "commit": "0b4a6888f8e93a24329f200942eee303af258092"
+  },
+  "email": "omareweis123@gmail.com",
+  "root": "c:\\Users\\omare\\Desktop\\MLX project\\Tranformer_project",
+  "host": "omarlaptop",
+  "username": "omare",
+  "executable": "c:\\Users\\omare\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "codePathLocal": "simple_word2vec_attention.ipynb",
+  "cpu_count": 14,
+  "cpu_count_logical": 20,
+  "disk": {
+    "/": {
+      "total": "509722226688",
+      "used": "388826664960"
+    }
+  },
+  "memory": {
+    "total": "16890978304"
+  },
+  "cpu": {
+    "count": 14,
+    "countLogical": 20
+  }
+}
