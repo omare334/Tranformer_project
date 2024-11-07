@@ -1,0 +1,26 @@
+{"time":"2024-11-07T22:00:24.1681113Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-07T22:00:24.1681113Z","level":"INFO","msg":"created symlink","path":"c:\\Users\\omare\\Desktop\\MLX project\\Tranformer_project\\wandb\\run-20241107_220024-e2czhovy\\logs\\debug-core.log"}
+{"time":"2024-11-07T22:00:24.1834802Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-07T22:00:24.1945627Z","level":"INFO","msg":"created new stream","id":"e2czhovy"}
+{"time":"2024-11-07T22:00:24.1955751Z","level":"INFO","msg":"stream: started","id":"e2czhovy"}
+{"time":"2024-11-07T22:00:24.1955751Z","level":"INFO","msg":"handler: started","stream_id":{"value":"e2czhovy"}}
+{"time":"2024-11-07T22:00:24.1955751Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"e2czhovy"}}
+{"time":"2024-11-07T22:00:24.1955751Z","level":"INFO","msg":"sender: started","stream_id":{"value":"e2czhovy"}}
+{"time":"2024-11-07T22:00:24.6030833Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-07T22:00:24.6044985Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-07T22:00:24.8201572Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-07T22:00:38.2707291Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-07T22:00:38.2742471Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-07T22:00:51.1277963Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-07T22:00:51.1312797Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-07T22:01:08.507779Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-07T22:01:08.5150278Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-07T22:01:12.3058765Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-07T22:01:12.3279483Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-07T22:01:12.3279483Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-07T22:01:15.0379086Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-07T22:01:16.3908091Z","level":"INFO","msg":"stream: closing","id":"e2czhovy"}
+{"time":"2024-11-07T22:01:16.3908091Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"e2czhovy"}}
+{"time":"2024-11-07T22:01:16.3908091Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"e2czhovy"}}
+{"time":"2024-11-07T22:01:16.3908091Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"e2czhovy"}}
+{"time":"2024-11-07T22:01:16.3908091Z","level":"INFO","msg":"stream: closed","id":"e2czhovy"}

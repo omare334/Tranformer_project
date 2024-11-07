@@ -1,0 +1,31 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "3.10.7",
+  "startedAt": "2024-11-07T22:13:22.328241Z",
+  "program": "c:\\Users\\omare\\Desktop\\MLX project\\Tranformer_project\\model_test stacked.ipynb",
+  "git": {
+    "remote": "https://github.com/omare334/Tranformer_project.git",
+    "commit": "fbd5d1ae051f8f002dd5197545b2f71d3a6ed9ca"
+  },
+  "email": "omareweis123@gmail.com",
+  "root": "c:\\Users\\omare\\Desktop\\MLX project\\Tranformer_project",
+  "host": "omarlaptop",
+  "username": "omare",
+  "executable": "c:\\Users\\omare\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "codePathLocal": "model_test stacked.ipynb",
+  "cpu_count": 14,
+  "cpu_count_logical": 20,
+  "disk": {
+    "/": {
+      "total": "509722226688",
+      "used": "398009516032"
+    }
+  },
+  "memory": {
+    "total": "16890978304"
+  },
+  "cpu": {
+    "count": 14,
+    "countLogical": 20
+  }
+}
