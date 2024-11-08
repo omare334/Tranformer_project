@@ -35,3 +35,10 @@ config: {}
 2024-11-08 14:18:28,724 INFO    MainThread:68300 [wandb_run.py:_redirect():2378] Wrapping output streams.
 2024-11-08 14:18:28,724 INFO    MainThread:68300 [wandb_run.py:_redirect():2403] Redirects installed.
 2024-11-08 14:18:28,725 INFO    MainThread:68300 [wandb_init.py:init():907] run started, returning control to user process
+2024-11-08 14:27:13,230 INFO    MainThread:68300 [wandb_run.py:_finish():2164] finishing run omareweis123/word2vec_attention/mrv412pl
+2024-11-08 14:27:13,230 INFO    MainThread:68300 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-11-08 14:27:13,230 INFO    MainThread:68300 [wandb_run.py:_restore():2410] restore
+2024-11-08 14:27:13,231 INFO    MainThread:68300 [wandb_run.py:_restore():2416] restore done
+2024-11-08 14:27:16,889 INFO    MainThread:68300 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-11-08 14:27:16,890 INFO    MainThread:68300 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-11-08 14:27:16,897 INFO    MainThread:68300 [wandb_run.py:_footer_sync_info():4008] logging synced files
