@@ -1,0 +1,38 @@
+{"time":"2024-11-08T14:15:39.6279432Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-08T14:15:39.6279432Z","level":"INFO","msg":"created symlink","path":"c:\\Users\\omare\\Desktop\\MLX project\\Tranformer_project\\wandb\\run-20241108_141539-yl9inmrr\\logs\\debug-core.log"}
+{"time":"2024-11-08T14:15:39.6284499Z","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-08T14:15:40.0932961Z","level":"INFO","msg":"created new stream","id":"yl9inmrr"}
+{"time":"2024-11-08T14:15:40.0939245Z","level":"INFO","msg":"handler: started","stream_id":{"value":"yl9inmrr"}}
+{"time":"2024-11-08T14:15:40.0939245Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"yl9inmrr"}}
+{"time":"2024-11-08T14:15:40.0939245Z","level":"INFO","msg":"stream: started","id":"yl9inmrr"}
+{"time":"2024-11-08T14:15:40.0939245Z","level":"INFO","msg":"sender: started","stream_id":{"value":"yl9inmrr"}}
+{"time":"2024-11-08T14:15:40.537327Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-08T14:15:40.5379046Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-08T14:15:42.9023918Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-08T14:18:02.31798Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-08T14:18:02.3220578Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-08T14:18:03.4970143Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-08T14:18:03.5015179Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-08T14:18:06.2908662Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-08T14:18:06.2939853Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-08T14:18:08.5775334Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-08T14:18:08.581481Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-08T14:18:10.5373162Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-08T14:18:10.5406119Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-08T14:18:11.8432594Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-08T14:18:11.8456454Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-08T14:18:13.08472Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-08T14:18:13.0862396Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-08T14:18:15.6363549Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-08T14:18:15.6381667Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-08T14:18:17.3119361Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-08T14:18:17.3163218Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-08T14:18:22.9039677Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-08T14:18:22.930477Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-08T14:18:22.9309822Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-08T14:18:26.887297Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-08T14:18:28.0809356Z","level":"INFO","msg":"stream: closing","id":"yl9inmrr"}
+{"time":"2024-11-08T14:18:28.0817359Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"yl9inmrr"}}
+{"time":"2024-11-08T14:18:28.0817359Z","level":"INFO","msg":"sender: closed","stream_id":{"value":"yl9inmrr"}}
+{"time":"2024-11-08T14:18:28.0817359Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"yl9inmrr"}}
+{"time":"2024-11-08T14:18:28.0817359Z","level":"INFO","msg":"stream: closed","id":"yl9inmrr"}
