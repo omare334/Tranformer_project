@@ -5,8 +5,9 @@
   - [Testing transformer](#Testing-transformer)
 
 ## Brief explanation of project
-Current transformer project in which there is a development of the attention mechanisms and the rest of the mechanisms that make up the transformer from scratch , this model can dynamically accept pictures
+Current transformer project in which there is a development of the attention mechanisms and the rest of the mechanisms that make up the transformer from scratch, this model can dynamically accept pictures
 in patches as long as they can be divided into those patches. The purpose of this is to develop a model that can do closed captioning on images.
+The model can be found in **`model/transformer_model.py`**
 ## Model architecture
 The first step is to make sure the model architecture is correct and will produce the correct outputs
 ### Transformer Architecture
