@@ -1,6 +1,15 @@
-Current transformer project in which there is a development of the attention mechanisms and the rest of the mechanisms that make up the transformer from scratch , this model can dynamicalls accept pictures
-in patches as long as they can be devided in those patches. The purpose of this is to develop a model that can do closed captioning on images.
+# Transformer project
+- [Brief explanation of project](#Brief-explanation-of-project)
+- [Model architecture](#Model-architecture)
+  - [Transformer Architecture](#Transformer-Architecture)
+  - [Testing transformer](#Testing-transformer)
 
+## Brief explanation of project
+Current transformer project in which there is a development of the attention mechanisms and the rest of the mechanisms that make up the transformer from scratch , this model can dynamically accept pictures
+in patches as long as they can be divided into those patches. The purpose of this is to develop a model that can do closed captioning on images.
+## Model architecture
+The first step is to make sure the model architecture is correct and will produce the correct outputs
+### Transformer Architecture
 Architecture of transformer
 ```python
 import torch
@@ -227,3 +236,47 @@ class Transformer(nn.Module):
 
         return decoder_output
 ```
+
+## Testing transformer
+You can test if the model is working by putting in an expected input of a pre-determined shape and making sure the right shape comes back
+
+``` python
+# Example instantiation and usage
+if __name__ == "__main__":
+    # Define dimensions
+    # if emb_dim changed you need to change Pemb_dim aswell
+    pxl_size = 784
+    emb_dim = 360
+    num_heads = 4
+    hidden_dim_ff = 512
+    Wemb_dim = 128
+    Pemb_dim = 360
+    new_dim = 256
+    voc_size = 1000
+    num_encoder_layers = 20
+    num_decoder_layers = 20
+
+    # Create model
+    model = Transformer(
+        pxl_size,
+        emb_dim,
+        num_heads,
+        hidden_dim_ff,
+        Wemb_dim,
+        Pemb_dim,
+        new_dim,
+        voc_size,
+        num_encoder_layers=num_encoder_layers,
+        num_decoder_layers=num_decoder_layers,
+    )
+
+    # Dummy input data
+    pxl_input = torch.rand((600, 784))  # Batch of 32 pixel inputs
+    print(pxl_input.shape)
+    wemb = torch.randint(0, voc_size, (32,))  # Batch of 32 word indices
+
+    # Forward pass
+    output = model(pxl_input, wemb)
+    print("Final Transformer output shape:", output)
+```
+
