@@ -2,6 +2,7 @@ import torch
 import numpy as np
 
 def getPositionEncoding(seq_len, d, n=10000):
+    # adds positional encoding to embeddings 
     P = np.zeros((seq_len, d))
     for k in range(seq_len):
         for i in np.arange(int(d/2)):
@@ -11,6 +12,17 @@ def getPositionEncoding(seq_len, d, n=10000):
     return torch.tensor(P, dtype=torch.float32)  # Convert to PyTorch tensor
 
 class Encoder(torch.nn.Module):
+    """
+    Encoder model
+    Inputs:
+        Self : Patches image of size 650( no. of patches),680(pixel number = height*width*channels)
+        pxl_size : the sizr of the pixels ( height * width * channels)
+        emb_dim : this is the embeddings dimension that need to be outputed into encoder can be picked 
+        num_heads : number of heads for multi-head attention must be devisible by embeddings
+        hidden_dim_ff : size of hidden dimension in feed forward
+
+
+    """
     def __init__(self, pxl_size, emb_dim, num_heads, hidden_dim_ff):
         super().__init__()
         self.num_heads = num_heads
@@ -144,17 +156,6 @@ import torch
 import torch.nn as nn
 import numpy as np
 
-
-def getPositionEncoding(seq_len, d, n=10000):
-    P = np.zeros((seq_len, d))
-    for k in range(seq_len):
-        for i in np.arange(int(d / 2)):
-            denominator = np.power(n, 2 * i / d)
-            P[k, 2 * i] = np.sin(k / denominator)
-            P[k, 2 * i + 1] = np.cos(k / denominator)
-    return torch.tensor(P, dtype=torch.float32)  # Convert to PyTorch tensor
-
-
 class EncoderLayer(nn.Module):
     def __init__(self, pxl_size, emb_dim, num_heads, hidden_dim_ff):
         super().__init__()
@@ -225,13 +226,13 @@ class Transformer(nn.Module):
 # Example instantiation and usage
 if __name__ == "__main__":
     # Define dimensions
-    # if emb_dim chnaged you need to change Pemb_dim aswell
+    # if emb_dim changed you need to change Pemb_dim aswell
     pxl_size = 784
-    emb_dim = 256
+    emb_dim = 360
     num_heads = 4
     hidden_dim_ff = 512
     Wemb_dim = 128
-    Pemb_dim = 256
+    Pemb_dim = 360
     new_dim = 256
     voc_size = 1000
     num_encoder_layers = 20
